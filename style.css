@@ -12,10 +12,7 @@
 
 }
 
-main {
-    
-    
-}
+/*================COVER & NAV=====================*/
 
 .landing {
     min-height: 100vh;
@@ -48,6 +45,8 @@ nav {
     font-family: 'Akaya Telivigala', cursive;
     font-size: 2rem;
 }
+
+/*=====================Landing TEXT====================*/
 
 .big-text {
     font-family: 'Satisfy', cursive;
@@ -87,6 +86,8 @@ nav {
     font-weight: bolder;
     text-align: center;
 }
+
+/*=================HEADER TEXT====================*/
 
 .header-text {
     font-family: 'RocknRoll One', sans-serif;
@@ -183,10 +184,30 @@ nav {
 }
 
 
+/*==============FOOTER=====================*/
 
-footer {
+
+.footer1 {
+    display: flex;
     margin-top: 50vh;
     background: #385a64;
     height: 50vh;
     width: 100vw;
+    position: absolute;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.ending-box {
+    margin: 50px 50px;
+    /* border: 2px solid black; */
+    width: 30vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ending-box h2 {
+    color: #d1e1e6;
+    font-size: 1.5rem;
+    font-style: italic;
 }
