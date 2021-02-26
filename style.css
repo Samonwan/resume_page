@@ -1,23 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=RocknRoll+One&family=Satisfy&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 main {
-    font-family: 'Montserrat', sans-serif;
+    
+    
 }
 
 .landing {
     min-height: 100vh;
-    background: url(./cover.jpg);
+    background: url(./Picture/illus_cover.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     padding: 0rem 5rem;
 }
 
 nav {
-    color: aliceblue;
+    color: #effbff;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,30 +50,143 @@ nav {
 }
 
 .big-text {
-    color: rgb(255, 255, 255);
-    position: absolute; 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    font-family: 'Satisfy', cursive;
+    color: #effbff;
+    text-shadow: 2px 2px #385a64;
+    /* text-shadow: 2px 2px #0f1a1d; */
     font-size: 3rem;
+    position: absolute; 
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -40%);
     text-align: center;
-    text-shadow: 2px 2px rgb(66, 69, 88);
 }
 
 .title-text {
-    color: rgb(255, 255, 255);
+    color: #f6f5f1;
     position: absolute; 
     top: 60%;
     left: 50%;
-    transform: translate(-50%, -60%);
+    transform: translate(-50%, -100%);
+    font-size: 1.5rem;
+    text-shadow: 2px 2px #385a64;
+    text-align: center;
+}
+
+.button-landing {
+    color: #ff4f5a;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 7rem;
+    position: absolute; 
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 1rem;
-    text-shadow: 1px 1px rgb(66, 69, 88);
+    font-weight: bolder;
     text-align: center;
 }
 
 .header-text {
+    font-family: 'RocknRoll One', sans-serif;
+    color: #ff4f5a;
     font-size: 2rem;
     justify-content: space-between;
     text-align: center;
+    text-shadow: 1.5px 1.5px #86a2aa;
+    margin-top: 100px;
 }
 
+/*=======================PROFILE SECTION=================*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    justify-content: center;
+
+}
+
+.box-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* width: 80vw;
+    height: 10vh; */
+    margin-top: 50px;
+    background: #f6f5f1;
+    border-radius: 20px;
+    width: 80vw;
+    padding: 1rem;
+}
+
+
+.icon-info {
+    /* background: black; */
+    width: 300px;
+    align-items: flex-start;
+    margin: 0% 5%;
+}
+
+.text-info {
+    font-size: 1rem;
+    color: #385a64;
+    text-align: left;
+    margin: 0% 5%;
+    height: 50vh;
+    overflow: scroll;
+}
+
+.text-info h4 {
+    font-weight: 900;
+    color: #ff4f5a;
+}
+
+.text-info ul {
+    list-style-type: none;
+}
+
+.text-info hr {
+    border-color: #ff4f5a;
+    width: 80%;
+}
+
+/*=======================SKILLS=================*/
+
+.container-skills {
+    margin-top: 50px;
+    position: absolute;
+    /* border: 5px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10vw;
+    width: 80vw;
+
+}
+
+.skills-box {
+    color: #385a64;
+    font-size: 1.4rem;
+    font-weight: bold;
+    /* border: 5px solid black; */
+    width: 33%;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.skills-box img {
+    width: 70px;
+    border-radius: 50px;
+}
+
+
+
+footer {
+    margin-top: 50vh;
+    background: #385a64;
+    height: 50vh;
+    width: 100vw;
+}
