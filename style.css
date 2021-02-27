@@ -12,6 +12,12 @@
 
 }
 
+@media (max-width: 768px) {
+
+    background: black;
+
+}
+
 /*================COVER & NAV=====================*/
 
 .landing {
