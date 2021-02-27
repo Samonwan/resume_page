@@ -12,12 +12,6 @@
 
 }
 
-@media (max-width: 768px) {
-
-    background: black;
-
-}
-
 /*================COVER & NAV=====================*/
 
 .landing {
@@ -30,7 +24,7 @@
 }
 
 nav {
-    color: #effbff;
+    color: #black;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -118,6 +112,7 @@ nav {
 
 .box-1 {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     /* width: 80vw;
@@ -138,6 +133,7 @@ nav {
 }
 
 .text-info {
+    width: 50%;
     font-size: 1rem;
     color: #385a64;
     text-align: left;
@@ -217,3 +213,11 @@ nav {
     font-size: 1.5rem;
     font-style: italic;
 }
+
+@media (max-width: 768px) {
+    [class="footer1"] {
+        background: brown;
+    }
+
+}
+
