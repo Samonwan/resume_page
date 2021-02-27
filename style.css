@@ -140,7 +140,6 @@
 
 
 .icon-info {
-    /* background: black; */
     width: 300px;
     align-items: flex-start;
     margin: 0% 5%;
@@ -234,19 +233,19 @@
 } */
 
 @media (max-width: 768px) {
-/* 
-    .nav-links li {
-        color: #d1e1e6;
-        padding: 0rem 2rem;
-        font-size: 1.2rem;
-        
-    } */
+
     .title-text {
         margin-top: 9vh;
     }
 
     .text-info {
         width: 80vw;
+    }
+
+    .icon-info {
+        width: 50vw;
+        align-items: flex-start;
+        margin: 5% 5%;
     }
 
     .skills-box {
