@@ -20,15 +20,19 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 0rem 5rem;
 }
 
-nav {
+.navbar {
+
+    border: 2px solid #385a64;
+    background: #385a64;
+
+    height: 8vh;
+    width: 100vw;
     color: #black;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 10vh;
 }
 
 .nav-links {
@@ -37,16 +41,20 @@ nav {
 }
 
 .nav-links li {
-    padding-left: 5rem;
+    color: #d1e1e6;
+    padding: 0rem 2rem;
     font-size: 1.2rem;
 }
 
 #logo {
     font-family: 'Akaya Telivigala', cursive;
     font-size: 2rem;
+    padding: 0rem 2rem;
 }
 
 /*=====================Landing TEXT====================*/
+
+/*Im Samonwan*/
 
 .big-text {
     font-family: 'Satisfy', cursive;
@@ -61,7 +69,11 @@ nav {
     text-align: center;
 }
 
+
+/*for apply*/
+
 .title-text {
+    margin-top: 3vh;
     color: #f6f5f1;
     position: absolute; 
     top: 60%;
@@ -73,6 +85,7 @@ nav {
 }
 
 .button-landing {
+    margin-top: 3vh;
     color: #ff4f5a;
     background-color: white;
     border: 1px solid black;
@@ -163,6 +176,7 @@ nav {
     position: absolute;
     /* border: 5px solid black; */
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin-left: 10vw;
@@ -203,20 +217,32 @@ nav {
 .ending-box {
     margin: 50px 50px;
     /* border: 2px solid black; */
-    width: 30vw;
+    width: 50vw;
     align-items: center;
     justify-content: space-around;
-}
-
-.ending-box h2 {
     color: #d1e1e6;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-style: italic;
 }
 
+/* .ending-box h2 {
+    color: #d1e1e6;
+    font-size: 1.5rem;
+    font-style: italic;
+} */
+
 @media (max-width: 768px) {
-    [class="footer1"] {
-        background: brown;
+
+    .text-info {
+        width: 80vw;
+    }
+
+    .footer1 {
+        
+    }
+
+    .ending-box {
+        font-size: 70%;
     }
 
 }
